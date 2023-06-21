@@ -1,0 +1,588 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4000367900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "get-title-and-author-from-books;",
+        "after": [
+          {
+            "result": {
+              "duration": 191578200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1797283500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I send a GET request to fetch book information",
+            "match": {
+              "location": "Steps.i_send_a_GET_request_to_fetch_book_information()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4052000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the response should have a status code of 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "Steps.the_response_should_have_a_status_code_of(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 536868100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the response should contain the title and author of the book",
+            "match": {
+              "location": "Steps.the_response_should_contain_the_title_and_author_of_the_book()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get title and author from books",
+    "description": "As user\r\nI want to get the tittel and author from books",
+    "id": "get-title-and-author-from-books",
+    "keyword": "Feature",
+    "uri": "cucumber/apitest.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2284310700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "login-functonality;",
+        "after": [
+          {
+            "result": {
+              "duration": 137942300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80382100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is in book list page",
+            "match": {
+              "location": "Steps.the_user_is_in_book_list_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87772600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user clicks in log in button",
+            "match": {
+              "location": "Steps.the_user_clicks_in_log_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10985800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is redirected to login page",
+            "match": {
+              "location": "Steps.the_user_is_redirected_to_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193062300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user introduces the user name in username input",
+            "match": {
+              "location": "Steps.the_user_introduces_the_user_name_in_username_input()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193482900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user introduces the password in password input",
+            "match": {
+              "location": "Steps.the_user_introduces_the_password_in_password_input()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63647300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user clicks in log in button in log in page",
+            "match": {
+              "location": "Steps.the_user_clicks_in_log_in_button_in_log_in_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 559537800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user is logged",
+            "match": {
+              "location": "Steps.the_user_is_logged()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functonality",
+    "description": "As user\r\nI want to login",
+    "id": "login-functonality",
+    "keyword": "Feature",
+    "uri": "cucumber/login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2162250200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Refresh books list",
+        "description": "",
+        "id": "search-functionality-for-the-books-list;refresh-books-list;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 136698000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 123098800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is in book list page",
+            "match": {
+              "location": "Steps.the_user_is_in_book_list_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16735600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The Input search box is displayed",
+            "match": {
+              "location": "Steps.the_Input_search_box_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8621200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The input search box button is displayed and clickable",
+            "match": {
+              "location": "Steps.the_input_search_box_button_is_displayed_and_clickable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32907700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The List books is displayed",
+            "match": {
+              "location": "Steps.the_List_books_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166420100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user introduces \"javascript\" in text input",
+            "match": {
+              "arguments": [
+                {
+                  "val": "javascript",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.the_user_introduces_in_text_input(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27870500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The books list refresh and show \"4\" books that contains the text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.the_books_list_refresh_and_show_books_that_contains_the_text(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2235445600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Refresh books list",
+        "description": "",
+        "id": "search-functionality-for-the-books-list;refresh-books-list;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 160678800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 54913200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is in book list page",
+            "match": {
+              "location": "Steps.the_user_is_in_book_list_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15397700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The Input search box is displayed",
+            "match": {
+              "location": "Steps.the_Input_search_box_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9870200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The input search box button is displayed and clickable",
+            "match": {
+              "location": "Steps.the_input_search_box_button_is_displayed_and_clickable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17425600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The List books is displayed",
+            "match": {
+              "location": "Steps.the_List_books_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136639700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user introduces \"pocket\" in text input",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pocket",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.the_user_introduces_in_text_input(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19443600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The books list refresh and show \"1\" books that contains the text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.the_books_list_refresh_and_show_books_that_contains_the_text(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2600959600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Refresh books list",
+        "description": "",
+        "id": "search-functionality-for-the-books-list;refresh-books-list;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 140792700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 54260100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is in book list page",
+            "match": {
+              "location": "Steps.the_user_is_in_book_list_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15834400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The Input search box is displayed",
+            "match": {
+              "location": "Steps.the_Input_search_box_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10685600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The input search box button is displayed and clickable",
+            "match": {
+              "location": "Steps.the_input_search_box_button_is_displayed_and_clickable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19956400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The List books is displayed",
+            "match": {
+              "location": "Steps.the_List_books_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79092700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user introduces \"cz\" in text input",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cz",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.the_user_introduces_in_text_input(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10013438600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The books list refresh and show \"0\" books that contains the text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.the_books_list_refresh_and_show_books_that_contains_the_text(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality for the books list",
+    "description": "As a user\r\nI want to be able to search on the book catalog\r\nso that i can find the books i am looking for",
+    "id": "search-functionality-for-the-books-list",
+    "keyword": "Feature",
+    "uri": "cucumber/search_refresh_books_list.feature"
+  }
+]
